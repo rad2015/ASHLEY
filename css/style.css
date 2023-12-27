@@ -239,9 +239,9 @@ footer .footer_cover .sns ul li a img { width: 24px; height: 24px; }
  
  .swiper h2, .swiper p, .swiper h3, .swiper ul.tag { left: 15%; } 
 
- .Best_list { width: 95%; }
+ .Best_list { width: 90%; }
 
- #wrap .notice { max-width: 95%; } 
+ #wrap .notice { max-width: 90%; } 
 
  #homestaurant .hsList ul { width: 95%; } 
  #homestaurant .hsList ul li { width: calc(33.33% - 20px); } 

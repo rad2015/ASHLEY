@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김나영-애슐리-프론트기본평가</title>
+
+    <!-- * favicon * -->
+    <link rel="shortcut icon" href="./images/favicon.ico">
+
+    <!-- js -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.easing.1.3.min.js"></script>
+
+<!-- --------------------------------------------------------------
+    [ plugin ]
+--------------------------------------------------------------- -->
+    <!-- * slide * -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans+KR&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+<!-- --------------------------------------------------------------
+    [ main : header ]
+--------------------------------------------------------------- -->
+    <main>
+        <div id="wrap">
+            <!-- header -->
+            <header>
+
+                <nav>
+                    <div class="wrapper">
+
+                        <!-- PC menu -->
+                        <div class="leftMenu">
+                            <h1 class="logo">
+                                <a href="#">
+                                    <img src="./images/logo.svg" alt="logo">
+                                </a>
+                            </h1>
+
+                            <!-- category -->
+                            <ul class="category">
+                                <li><a href="#">STORE</a></li>
+                                <li><a href="#">MENU</a></li>
+                                <li><a href="#">SHLEYZ</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- right Box -->
+                        <div class="rightBox">
+                            <ul class="rightIcon">
+                                <li><a href="#"><img src="./images/user.svg" alt="mypage"></a></li>
+                                <li><a href="#"><img src="./images/cart.svg" alt="cart"></a></li>
+                            </ul>
+                            <ul class="rightcategory">
+                                <li><a href="#">로그인</a></li>
+                                <li><a href="#">online mall</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- mobile menu -->
+                        <ul class="m_menu">
+                            <li><a href="#">스토어</a></li>
+                            <li><a href="#">애슐리메뉴</a></li>
+                            <li><a href="#">슐리즈</a></li>
+                            <li><a href="#">홈스토랑</a></li>
+                            <li><a href="#">로그인</a></li>
+
+                            <!-- x 버튼 -->
+                            <li><a href="#"><img src="./images/close.svg" alt="X"></a></li>
+
+                        </ul>
+                        
+                        <!-- right menu -->
+                        <ul class="rightmenu">
+
+                            <!-- 햄버거버튼 -->
+                            <li><a href="#"><img src="./images/hamBtn.svg" alt="hamBtn"></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+
+
+
+<!-- --------------------------------------------------------------
+    [ main : slide ]
+--------------------------------------------------------------- -->
+            <!-- 메인슬라이드 -->
+            <section id="main_slides">
+                <h2 class="blind">메인슬라이드</h2>
+
+                <div class="swiper mySwiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h2>아시아 맛집 정상회담</h2>
+                            <p>애슐리 아시아티크 신메뉴 대공개!</p>
+                            <ul class="tag">
+                                <li>애슐리퀸즈</li>
+                                <li>트로피컬</li>
+                                <li>아시아티크</li>
+                            </ul>
+                            <h3>2023.05.18</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h2>홈스토랑 by Ashley</h2>
+                            <p>프리미엄 가정 간편식 브랜드</p>
+                            <ul class="tag">
+                                <li>홈스토랑 구경가기</li>
+                            </ul>
+                            <h3>더 맛있고, 더 편하게 우리집이 맛집이 된다!</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h2>애슐리 앱으로 즐겨보세요</h2>
+                            <p>예약부터 상담까지 빠르고 간편하게!</p>
+                            <ul class="tag">
+                                <li>애슐리APP</li>
+                                <li>방문예약</li>
+                                <li>실시간상담</li>
+                            </ul>
+                            <h3>이랜드이츠 전 브랜드 사용가능</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h2>애슐리 마스코트 SHLEYZ</h2>
+                            <p>귀여운 슐리즈를 애슐리에서 만나보세요!</p>
+                            <ul class="tag">
+                                <li>오몽새</li>
+                                <li>코타</li>
+                                <li>베리빗</li>
+                                <li>람찌</li>
+                            </ul>
+                            <h3>일상이 축제같은 미식세계 친구들</h3>
+                        </div>
+                    </div>
+
+                    <!-- 인디케이터 -->
+                    <div class="swiper-pagination slides-pagenation"></div>
+                </div>
+            </section>
+
+
+
+
+<!-- --------------------------------------------------------------
+    [ main : notice ]
+--------------------------------------------------------------- -->
+            <!-- notice -->
+            <div class="notice">
+                <h2>공지사항</h2>
+                <ul class="list">
+                    <li><a href="#">[ 애슐리오픈 ] 12월 29일(금) 미사점 GRAND OPENING!</a></li>
+                    <li><a href="#">[ 애슐리오픈 ] 12월 29일(금) 창원점 GRAND OPENING!</a></li>
+                    <li><a href="#">[ 이벤트 ] 신메뉴 소비자 조사 참여 포인트 적립 당첨자 안내 (1,000포인트)</a></li>
+                </ul>
+                <div class="more"><a href="#"><img src="./images/plus.svg" alt="more"></a></div>
+            </div>
+
+
+
+<!-- --------------------------------------------------------------
+    [ main : season menu ]
+--------------------------------------------------------------- -->
+            <!-- season new menu -->
+            <div id="seasonMenu">
+                <h2>Ashley Season Menu</h2>
+                <p>애슐리의 시즌 신메뉴를 소개합니다</p>
+
+
+
+                <!-- 가로형 아코디언 -->
+                <div class="Best_list">
+                    <div class="option active" style="--optionBackground:url(../images/menu/menu01.jpg);">
+                        <div class="img"></div>
+                        <p>트로피컬 파인애플 바비큐 폭립</p>
+                    </div>
+                    <div class="option" style="--optionBackground:url(../images/menu/menu02.jpg);">
+                        <div class="img"></div>
+                        <p>카레 카오 팟 쌉빠롯<br>싱가포르 라임 칠리 크랩<br>태국식 콜라비 자몽 쏨땀</p>
+                    </div>
+                    <div class="option" style="--optionBackground:url(../images/menu/menu03.jpg);">
+                        <div class="img"></div>
+                        <p>하와이안 파인애플 피자</p>
+                    </div>
+                    <div class="option" style="--optionBackground:url(../images/menu/menu04.jpg);">
+                        <div class="img"></div>
+                        <p>써머 망고 티라미수</p>
+                    </div>
+                    <div class="option" style="--optionBackground:url(../images/menu/menu05.jpg);">
+                        <div class="img"></div>
+                        <p>홍콩식 아이스 망고 빤지</p>
+                    </div>
+                    <div class="option" style="--optionBackground:url(../images/menu/menu06.jpg);">
+                        <div class="img"></div>
+                        <p>애플망고 요거트 라씨</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+<!-- --------------------------------------------------------------
+    [ main : membership + location ]
+--------------------------------------------------------------- -->
+            <div id="infoWrap">
+                <div id="info">
+                    <div class="membership">
+                        <section class="title">
+                            <h2>Ashley<br>membership</h2>
+                            <p>E.POINT 회원 멤버십 안내</p>
+                            <span><a href="#"><img src="./images/plus.svg" alt="more"></a></span>
+                        </section>
+                        <ul>
+                            <li><a href="#">#E.POINT 가맹점</a></li>
+                            <li><a href="#">#어디서나</a></li>
+                            <li><a href="#">#포인트적립</a></li>
+                            <li><a href="#">#포인트사용</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="location">
+                        <section class="title">
+                            <h2>Ashley store location</h2>
+                            <p>전국 애슐리 매장 위치 찾기</p>
+                            <span><a href="#"><img src="./images/plus.svg" alt="more"></a></span>
+                        </section>
+                        <ul>
+                            <li><a href="#"><img src="./images/store01.jpg" alt="store01"></a></li>
+                            <li><a href="#"><img src="./images/store02.jpg" alt="store02"></a></li>
+                            <li><a href="#"><img src="./images/store03.jpg" alt="store03"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+<!-- --------------------------------------------------------------
+    [ main : homestaurant ]
+--------------------------------------------------------------- -->
+            <div id="homestaurant">
+                <div class="hsTitle">
+                    <h2>Ashley Homestaurant Best Menu</h2>
+                    <p>애슐리 홈스토랑 베스트메뉴</p>
+                </div>
+
+                <div class="hsList">
+                    <ul>
+                        <li><a href="https://homestaurant.co.kr/goods/goods_view.php?goodsNo=1000000055"><img
+                                    src="./images/menu/hs01.jpg" alt="01">
+                                <p>애슐리 시카고 딥디쉬 피자</p><span></span><br><strong>8,900원</strong>
+                            </a></li>
+                        <li><a href="https://homestaurant.co.kr/goods/goods_view.php?goodsNo=1000001235"><img
+                                    src="./images/menu/hs02.jpg" alt="02">
+                                <p>애슐리 시그니처 바비큐 폭립</p><span></span><br><strong>19,900원</strong>
+                            </a></li>
+                        <li><a href="https://homestaurant.co.kr/goods/goods_view.php?goodsNo=1000000081"><img
+                                    src="./images/menu/hs03.jpg" alt="03">
+                                <p>애슐리 랍스터 볶음밥 4인분</p><span>12,900원</span><br><strong>10,900원</strong>
+                            </a></li>
+                        <li><a href="https://homestaurant.co.kr/goods/goods_view.php?goodsNo=1000000086"><img
+                                    src="./images/menu/hs04.jpg" alt="04">
+                                <p>애슐리 오리지널 통살 치킨</p><span>7,900원</span><br><strong>6,900원</strong>
+                            </a></li>
+                        <li><a href="https://homestaurant.co.kr/goods/goods_view.php?goodsNo=1000000320"><img
+                                    src="./images/menu/hs05.jpg" alt="05">
+                                <p>애슐리 올라 파히타 2인분</p><span></span><br><strong>19,900원</strong>
+                            </a></li>
+                        <li><a href="https://homestaurant.co.kr/goods/goods_view.php?goodsNo=1000000324"><img
+                                    src="./images/menu/hs06.jpg" alt="06">
+                                <p>애슐리 감바스 피칸테 2인분</p><span>16,900원</span><br><strong>14,900원</strong>
+                            </a></li>
+                    </ul>
+
+                    <div class="hsLink">
+                        <a href="https://www.homestaurant.co.kr/">온라인몰 바로가기<span><img src="./images/right.svg" alt="hsLink"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+<!-- --------------------------------------------------------------
+    [ footer ]
+--------------------------------------------------------------- -->
+    <footer>
+        <div class="footer_cover">
+            <p>(주)이랜드이츠｜서울특별시 금천구 가산디지털1로 186, 213호 제이플라츠<br>
+                대표이사 : 황성윤｜개인정보보호 책임자 : 황성윤<br>
+                매장 이용관련 문의사항 : 1577-1259 | 이메일 : elandfood@eland.co.kr<br>
+                호스팅 서비스 제공자 : 라드씨엔에스 | <a href="#">개인정보처리방침</a>
+                <br><a href="#"></a>
+                Copyright©2013 ASHLEY
+            </p>
+            <div class="sns">
+                <ul>
+                    <li><a href="https://www.youtube.com/results?search_query=%EC%95%A0%EC%8A%90%EB%A6%AC"><img
+                                src="./images/sns/ft_sns_youtube.png" alt="유튜브"></a></li>
+                    <li><a href="https://pf.kakao.com/_CxlzAxl"><img src="./images/sns/ft_sns_kakao.png"
+                                alt="카카오채널"></a></li>
+                    <li><a href="https://www.instagram.com/Your_ashley"><img src="./images/sns/ft_sns_instagram.png"
+                                alt="인스타그램"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Scroll Top Btn -->
+    <div><a href="#" class="btn_top">
+            <p>↑</p>
+        </a></div>
+
+
+    <!-- Swiper Slide -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+
+            // loop: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            }
+
+        });
+    </script>
+
+
+</body>
+
+</html>

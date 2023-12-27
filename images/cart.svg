@@ -1,0 +1,13 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="shopping" clip-path="url(#clip0_3_16)">
+<path id="Vector" d="M30 0H0V30H30V0Z" fill="white" fill-opacity="0.01"/>
+<path id="Vector_2" d="M1.875 3.75H4.0625L5 7.5L1.875 3.75ZM5 7.5L8.125 20H24.375L27.5 7.5H5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M8.125 26.25C9.16053 26.25 10 25.4105 10 24.375C10 23.3395 9.16053 22.5 8.125 22.5C7.08947 22.5 6.25 23.3395 6.25 24.375C6.25 25.4105 7.08947 26.25 8.125 26.25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M24.375 26.25C25.4105 26.25 26.25 25.4105 26.25 24.375C26.25 23.3395 25.4105 22.5 24.375 22.5C23.3395 22.5 22.5 23.3395 22.5 24.375C22.5 25.4105 23.3395 26.25 24.375 26.25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_3_16">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
